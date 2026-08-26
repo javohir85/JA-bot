@@ -5,4 +5,4 @@ binance = ccxt.binance({
 
 
 balance = binance.fetch_balance()
-printbalance
+print(balance)
